@@ -1,7 +1,11 @@
 .title{
-    background-color: blueviolet;
+    background-color: white;
     width: auto;
+    color: gray;
+    text-align: center;
+    
 }
-.body{
-    background: black;
+
+body{
+    background-color: black;
 }
