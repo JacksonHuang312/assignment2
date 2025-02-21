@@ -12,3 +12,9 @@
 body{
     background-color: black;
 }
+.buttons{
+    position: relative;
+    display: flex   ;
+    justify-content: end;
+    
+}
