@@ -144,3 +144,9 @@ select {
     letter-spacing: 60px;
     color: #FF7F50	;
 }
+
+.featureSection{
+    display: flex;
+    height: 1%;
+    width: 1%;
+}
