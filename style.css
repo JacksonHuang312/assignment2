@@ -1,6 +1,6 @@
 .title {
     position: relative;
-
+    
     width: auto;
     color: white;
     margin-left: auto;
@@ -138,10 +138,10 @@ select {
 .heroText{
     position: absolute;
     top: 7%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%) ;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 85px;
+    letter-spacing: 60px;
     color: #FF7F50	;
 }
 
