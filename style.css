@@ -137,16 +137,26 @@ select {
 }
 .heroText{
     position: absolute;
-    top: 5%;
+    top: 7%;
     left: 50%;
     transform: translate(-50%, -50%) ;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 60px;
+    letter-spacing: 85px;
     color: #FF7F50	;
 }
 
 .featureSection{
     display: flex;
-    height: 1%;
-    width: 1%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.featureSection img {
+    width: 32%;
+    height: auto;
+}
+
+.heroSection img {
+    width: 98%;
+    height: auto;
 }
