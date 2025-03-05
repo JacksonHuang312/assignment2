@@ -1,12 +1,10 @@
 .title {
-    position: relative;
-    
-    width: auto;
+
+
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+
     text-align: center;
-    width: 200px;
+    font-size: 50px;
 }
 
 body {
@@ -109,7 +107,7 @@ select {
     left: 0;
     width: 100%;
     height: 100%;
- 
+
 }
 
 .registerButton:hover::after {
@@ -120,6 +118,7 @@ select {
     border-color: #666666;
     background: #292929;
 }
+
 .loginButton:hover::after {
     transform: scale(4);
 }
@@ -129,23 +128,24 @@ select {
     background: #292929;
 }
 
-.heroSection{
+.heroSection {
     position: relative;
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 
 }
-.heroText{
+
+.heroText {
     position: absolute;
     top: 7%;
     left: 52%;
-    transform: translate(-50%, -50%) ;
+    transform: translate(-50%, -50%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 60px;
-    color: #FF7F50	;
+    color: #FF7F50;
 }
 
-.featureSection{
+.featureSection {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -159,4 +159,25 @@ select {
 .heroSection img {
     width: 98%;
     height: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.featuredText {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.footerText {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footerSection {
+    border-style: dashed;
+    border: #ffffff;
 }
