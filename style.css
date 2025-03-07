@@ -149,14 +149,25 @@ select {
 
 .featureSection {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .featureSection img {
-    width: 32%;
+    width: 30%;
     height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.featureSection img:hover {
+    transform: scale(1.05);
 }
 
 .heroSection img {
@@ -172,15 +183,23 @@ h1 {
     text-align: center;
     font-size: 50px;
     color: white;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .footerText {
-    color: white;
+    color: #cccccc; /* Lighter shade of white for better contrast */
     font-size: 20px;
-    text-align: center;
+    margin: 0;
 }
 
 .footerSection {
-    border-style: dashed;
-    border: #ffffff;
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5); 
+    border-radius: 0 0 10px 10px; 
 }
