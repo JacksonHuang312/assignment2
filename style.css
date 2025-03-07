@@ -167,7 +167,7 @@ select {
 }
 
 .featureSection img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .heroSection img {
@@ -190,7 +190,7 @@ h1 {
 }
 
 .footerText {
-    color: #cccccc; /* Lighter shade of white for better contrast */
+    color: #cccccc; 
     font-size: 20px;
     margin: 0;
 }
